@@ -1,0 +1,4 @@
+﻿  Problem 5.cpp
+D:\visual studio\projects\Problem 5\Problem 5\Problem 5.cpp(1,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\visual studio\projects\Problem 5\Problem 5\Problem 5.cpp(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  Problem 5.vcxproj -> D:\visual studio\projects\Problem 5\x64\Debug\Problem 5.exe

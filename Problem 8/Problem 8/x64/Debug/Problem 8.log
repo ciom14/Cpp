@@ -1,0 +1,5 @@
+﻿  Problem 8.cpp
+D:\visual studio\projects\Problem 8\Problem 8\Problem 8.cpp(1,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\visual studio\projects\Problem 8\Problem 8\Problem 8.cpp(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\visual studio\projects\Problem 8\Problem 8\Problem 8.cpp(8,18): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  Problem 8.vcxproj -> D:\visual studio\projects\Problem 8\x64\Debug\Problem 8.exe
