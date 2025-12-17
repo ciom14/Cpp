@@ -1,0 +1,5 @@
+﻿  Problem 13.cpp
+D:\visual studio\projects\Problem 13\Problem 13\Problem 13.cpp(1,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\visual studio\projects\Problem 13\Problem 13\Problem 13.cpp(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\visual studio\projects\Problem 13\Problem 13\Problem 13.cpp(14,10): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Problem 13.vcxproj -> D:\visual studio\projects\Problem 13\x64\Debug\Problem 13.exe
