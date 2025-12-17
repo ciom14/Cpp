@@ -1,0 +1,6 @@
+﻿  Problem 9.cpp
+D:\visual studio\projects\Problem 9\Problem 9\Problem 9.cpp(1,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\visual studio\projects\Problem 9\Problem 9\Problem 9.cpp(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\visual studio\projects\Problem 9\Problem 9\Problem 9.cpp(10,10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\visual studio\projects\Problem 9\Problem 9\Problem 9.cpp(8,6): warning C4101: icounter: неиспользованная локальная переменная
+  Problem 9.vcxproj -> D:\visual studio\projects\Problem 9\x64\Debug\Problem 9.exe
