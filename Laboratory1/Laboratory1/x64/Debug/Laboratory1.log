@@ -1,3 +1,0 @@
-﻿  Laboratory1.cpp
-D:\visual studio\projects\Laboratory1\Laboratory1\Laboratory1.cpp(9,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  Laboratory1.vcxproj -> D:\visual studio\projects\Laboratory1\x64\Debug\Laboratory1.exe
