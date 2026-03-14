@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <fstream>
 #include <cstdlib>
 #include <ctime>
@@ -15,7 +15,7 @@ int main() {
     Matrix i10(1, 2); i10.data[0][0] = 1; i10.data[0][1] = 0;
     Matrix i11(1, 2); i11.data[0][0] = 1; i11.data[0][1] = 1;
 
-    std::cout << "Do obucheniya:" << std::endl;
+    std::cout << "До обучения:" << std::endl;
     std::cout << "[0,0] -> " << n.forward(i00) << std::endl;
     std::cout << "[0,1] -> " << n.forward(i01) << std::endl;
     std::cout << "[1,0] -> " << n.forward(i10) << std::endl;
@@ -43,13 +43,13 @@ int main() {
 
     file.close();
 
-    std::cout << "\nPosle obucheniya:" << std::endl;
+    std::cout << "\nПосле обучения:" << std::endl;
     std::cout << "[0,0] -> " << n.forward(i00) << std::endl;
     std::cout << "[0,1] -> " << n.forward(i01) << std::endl;
     std::cout << "[1,0] -> " << n.forward(i10) << std::endl;
     std::cout << "[1,1] -> " << n.forward(i11) << std::endl;
 
-    std::cout << "\nVesa posle obucheniya:" << std::endl;
+    std::cout << "\nВеса после обучения:" << std::endl;
     std::cout << "w1: " << n.weights.data[0][0] << std::endl;
     std::cout << "w2: " << n.weights.data[0][1] << std::endl;
     std::cout << "bias: " << n.bias << std::endl;
