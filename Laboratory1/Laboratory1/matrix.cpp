@@ -6,7 +6,7 @@ Matrix::Matrix(int rows, int cols) : rows(rows), cols(cols) {
 
 Matrix Matrix::operator+(const Matrix& other) const {
     if (rows != other.rows || cols != other.cols)
-        throw std::invalid_argument("Размеры матриц не совпадают");
+        throw std::invalid_argument("Р Р°Р·РјРµСЂС‹ РјР°С‚СЂРёС† РЅРµ СЃРѕРІРїР°РґР°СЋС‚");
     Matrix result(rows, cols);
     for (int i = 0; i < rows; i++)
         for (int j = 0; j < cols; j++)
@@ -16,7 +16,7 @@ Matrix Matrix::operator+(const Matrix& other) const {
 
 Matrix Matrix::operator*(const Matrix& other) const {
     if (cols != other.rows)
-        throw std::invalid_argument("Нельзя перемножить эти матрицы");
+        throw std::invalid_argument("РќРµР»СЊР·СЏ РїРµСЂРµРјРЅРѕР¶РёС‚СЊ СЌС‚Рё РјР°С‚СЂРёС†С‹");
     Matrix result(rows, other.cols);
     for (int i = 0; i < rows; i++)
         for (int j = 0; j < other.cols; j++)
